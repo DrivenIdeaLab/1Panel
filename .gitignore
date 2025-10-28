@@ -1,0 +1,55 @@
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Cache and compiled files
+*.cache
+*.compiled
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment and secrets
+.env.local
+.env.*.local
+**/storage/app/temp/
+
+# Node modules (very large)
+**/node_modules/
+
+# Build artifacts
+**/dist/
+**/build/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large binary files
+*.iso
+*.img
+*.dmg
+
+# Database dumps (can be large)
+*.sql.gz
+*.dump
+
+# Docker volumes data (if any)
+**/volumes/
+
+# Backup files
+*.bak
+*.backup
